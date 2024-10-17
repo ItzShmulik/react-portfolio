@@ -1,0 +1,67 @@
+#root{
+  width: 100vw;
+  height: 100vh;
+}
+
+#hero-section{
+  margin: 0;
+  background-image: url("../public/sea-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 131vh;
+  color: white;
+  display: grid;
+  background-color: #201929;
+}
+
+#projects-section{
+  margin: 0;
+  height: 100vh;
+  background-color: #003b93;
+}
+
+#hero-title{
+  font-size: 72px;
+  margin-left: 10%;
+}
+
+#hero-description{
+  font-size: 35px;
+  margin-left: 10%;
+}
+
+#navbar{
+  position: fixed;
+  width: 10vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 25px;
+  right: 0;
+  z-index: 2;
+}
+
+#navbar a{
+  color: white;
+  text-decoration: none;
+}
+
+#navbar a:hover{
+  color: #5c5b57;
+}
+
+#hero-text{
+  line-height: 5vh;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Ensures it stays on top of the body background */
+}
